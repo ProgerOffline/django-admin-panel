@@ -2,7 +2,7 @@
 
 ## Table of Contents 📚
 
-- [Description](#description)
+- [Description](#description-)
 - [Project Structure](#project-structure-)
 - [Key Features](#key-features-)
   - [Design](#design)
