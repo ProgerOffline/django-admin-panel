@@ -2,13 +2,12 @@
 
 ## Table of Contents 📚
 
-- [Description](#description)
-- [Project Structure](#project-structure)
-- [Key Features](#key-features)
+- [Description](#description-)
+- [Project Structure](#project-structure-)
+- [Key Features](#key-features-)
   - [Design](#design)
   - [Functionality](#functionality)
   - [Technologies](#technologies)
-  - [Documentation](#documentation)
 - [Installation Guide](#installation-guide)
 - [License](#license)
 - [Support the Author](#support-the-author)
