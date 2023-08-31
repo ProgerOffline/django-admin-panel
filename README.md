@@ -35,9 +35,14 @@
 - Web framework Django for faster development and feature extension. 🐍
 - Integration capability with database PostgreSQL. 📊
 
-### Documentation 📚
-- Detailed documentation on how to use and configure the template. 📖
-- Code examples and instructions for adding new features. 📝
+## Database Management 🗃️
+
+The repository includes a helpful file named `postgres-utils.py` which provides commands for managing the database. Here are the available commands:
+
+- `db-update-access`: Grants privileges to the database for the environment user.
+- `db-remove`: Removes the environment database.
+- `db-create`: Creates the environment database.
+- `db-recreate`: Recreates the environment database.
 
 ## Demo Videos 📹
 
