@@ -102,5 +102,12 @@ python3 manage.py migrate
 ```Shell
 python3 manage.py runserver
 ```
+Now the project is set up and running. You can access the admin panel and start building your application.
 
-This repository provides a solid foundation for creating administrative panels that adhere to modern design and functionality standards. It assists developers in saving time on initial setup and focusing on developing unique components and features specific to their projects. 🏗️
+## License 📄
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Support the Author ❤️
+
+If you find this project helpful and would like to support the author, you can consider contributing to the project, giving it a star on GitHub, or providing a donation.
