@@ -50,4 +50,57 @@ The repository includes a helpful file named `postgres-utils.py` which provides 
 
 ![Mobile version](https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/cd2919a0-585c-4ed5-b3a3-0c903077f4a9)
 
+
+## Installation Guide 🛠️
+
+To set up the project, follow these steps:
+
+1. Clone the repository:
+```Shell
+git clone https://github.com/ProgerOffline/django-web-panel
+cd django-web-panel
+```
+
+2. Edit the `.env-dist` file with the following content:
+```python3
+DATABASE_NAME=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+DATABASE_HOST=127.0.0.1
+DATABASE_PORT=5432
+```
+
+Rename the file to `.env`.
+
+3. Create a Python 3 virtual environment:
+```Shell
+python3 -m venv venv
+source venv/bin/activate
+```
+
+4. Install the required packages from the `requirements.txt` file:
+```Shell
+pip install -r requirements.txt
+```
+
+5. Navigate to the `src/web/` directory:
+```Shell
+cd src/web/
+```
+
+6. Apply migrations for the Django database:
+```Shell
+python3 manage.py makemigrations
+```
+
+7. Apply the migrations to the Django database:
+```Shell
+python3 manage.py migrate
+```
+
+8. Start the Django project:
+```Shell
+python3 manage.py runserver
+```
+
 This repository provides a solid foundation for creating administrative panels that adhere to modern design and functionality standards. It assists developers in saving time on initial setup and focusing on developing unique components and features specific to their projects. 🏗️
