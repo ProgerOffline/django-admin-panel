@@ -39,10 +39,10 @@
 - Detailed documentation on how to use and configure the template. 📖
 - Code examples and instructions for adding new features. 📝
 
+## Demo Videos 📹
+
+![Desktop version](https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/67b89466-4764-4d66-8192-b1def6ad8078)
+
+![Mobile version](https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/cd2919a0-585c-4ed5-b3a3-0c903077f4a9)
+
 This repository provides a solid foundation for creating administrative panels that adhere to modern design and functionality standards. It assists developers in saving time on initial setup and focusing on developing unique components and features specific to their projects. 🏗️
-
-
-https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/67b89466-4764-4d66-8192-b1def6ad8078
-
-https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/cd2919a0-585c-4ed5-b3a3-0c903077f4a9
-
