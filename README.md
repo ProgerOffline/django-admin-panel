@@ -6,6 +6,7 @@
 ## Project Structure 🏗️
 ```
 .
+├── .env-dist
 ├── postgres-utils.py
 ├── README.md
 ├── requirements.txt
