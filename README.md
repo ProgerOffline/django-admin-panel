@@ -104,10 +104,6 @@ python3 manage.py runserver
 ```
 Now the project is set up and running. You can access the admin panel and start building your application.
 
-## License 📄
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Support the Author ❤️
 
 If you find this project helpful and would like to support the author, you can consider contributing to the project, giving it a star on GitHub, or providing a donation.
