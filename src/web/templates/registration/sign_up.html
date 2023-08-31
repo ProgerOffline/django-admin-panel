@@ -23,14 +23,6 @@
     <div class="form-group">
         <input type="password" name="password2" class="form-control form-control-user" placeholder="Ще раз пароль" required>
     </div>
-    <label for="groups">Оберіть свою роль:</label>
-    <select class="form-control form-control-user" name="groups" required>
-        <option value="">-</option>
-        {% for group in groups %}
-            <option value="{{ group.id }}">{{ group.name }}</option>
-        {% endfor %}
-    </select>
-    <hr>
     <button class="btn btn-primary btn-user btn-block" id="btn_login">Зареєструватись</button>
 </form>
 <hr>

@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Project apps
+    'web',
     'accounts',
+    'panel',
 ]
 
 MIDDLEWARE = [
@@ -59,10 +61,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'web.urls'
 
+TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATE_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

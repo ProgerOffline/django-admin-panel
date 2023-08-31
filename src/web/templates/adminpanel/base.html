@@ -48,8 +48,6 @@
 
               document.cookie = updatedCookie;
             }
-
-
         </script>
         <style>
             .status-inactive {
@@ -111,32 +109,12 @@
                 </a>
                 <!-- Divider -->
                 <!-- Nav Item - Dashboard -->
-                <li class="nav-item mt-3 {% block arbitrage_urls_status %}{% endblock arbitrage_urls_status %}">
-                    <a class="nav-link" href="{% url 'panel:arbitrage_urls:show' %}">
-                        <i style="margin-right: 10px" class="fa-solid fa-link"></i>
-                        <span>Ваші посилання</span>
+                <li class="nav-item mt-3 {% block empty_block %}{% endblock empty_block %}">
+                    <a class="nav-link" href="#">
+                        <i style="margin-right: 10px" class="fa-solid fa-empty"></i>
+                        <span>Розділ</span>
                     </a>
                 </li>
-                {% if request.user|has_group:'Team Leader' %}
-                    <li class="nav-item mt-3 {% block channels_status %}{% endblock channels_status %}">
-                        <a class="nav-link" href="{% url 'panel:channels:show' %}">
-                            <i style="margin-right: 10px" class="fa-solid fa-newspaper"></i>
-                            <span>Канали</span>
-                        </a>
-                    </li>
-                    <li class="nav-item mt-3 {% block buyers_status %}{% endblock buyers_status %}">
-                        <a class="nav-link" href="{% url 'panel:arbitrage_urls:user_show' %}">
-                            <i style="margin-right: 10px" class="fa-solid fa-user"></i>
-                            <span>Buyers</span>
-                        </a>
-                    </li>
-                    <li class="nav-item mt-3 {% block traffic_source_status %}{% endblock traffic_source_status %}">
-                        <a class="nav-link" href="{% url 'panel:traffic_source:show' %}">
-                            <i style="margin-right: 10px" class="fa-solid fa-globe"></i>
-                            <span>Джерела трафіку</span>
-                        </a>
-                    </li>
-                {% endif %}
             </ul>
             <!-- Content Wrapper -->
             <div id="content-wrapper" class="d-flex flex-column">
