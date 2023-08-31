@@ -40,3 +40,15 @@
 - Code examples and instructions for adding new features. 📝
 
 This repository provides a solid foundation for creating administrative panels that adhere to modern design and functionality standards. It assists developers in saving time on initial setup and focusing on developing unique components and features specific to their projects. 🏗️
+
+
+https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/67b89466-4764-4d66-8192-b1def6ad8078
+
+
+
+https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/e1d81066-e40b-4afe-88f8-7bf73048cd4c
+
+
+
+https://github.com/ProgerOffline/django-admin-panel-template/assets/70508510/cd2919a0-585c-4ed5-b3a3-0c903077f4a9
+
