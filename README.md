@@ -1,8 +1,5 @@
 # django-web-panel 😺
 
-## Description 📜
-**django-web-panel** is a Git repository that contains a versatile template for quickly creating a web admin panel with modern design and comprehensive functionality. This template offers a convenient solution for developers aiming to build functional administrative panels for various purposes, such as online stores, data management systems, analytical platforms, and more.
-
 ## Table of Contents 📚
 
 - [Description](#description)
@@ -16,6 +13,9 @@
 - [License](#license)
 - [Support the Author](#support-the-author)
 - [Demo Videos](#demo-videos)
+
+## Description 📜
+**django-web-panel** is a Git repository that contains a versatile template for quickly creating a web admin panel with modern design and comprehensive functionality. This template offers a convenient solution for developers aiming to build functional administrative panels for various purposes, such as online stores, data management systems, analytical platforms, and more.
 
 ## Project Structure 🏗️
 
