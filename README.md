@@ -78,6 +78,7 @@ Rename the file to `.env`.
 ```Shell
 python3 -m venv venv
 source venv/bin/activate
+pip3 install --upgrade pip
 ```
 
 4. Install the required packages from the `requirements.txt` file:
