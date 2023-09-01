@@ -2,9 +2,9 @@
 
 {% block content %}
 <div class="text-center mb-5">
-    <h1 class="h4 text-gray-900">Увійти</h1>
+    <h1 class="h4 text-gray-900">Login in</h1>
     {% if login_form.errors %}
-        <span>Не правильний логін або пароль</span>
+        <span>Wrong login or password</span>
     {% endif %}
 </div>
 <div class="msg-result"></div>
@@ -12,17 +12,17 @@
     {% csrf_token %}
     
     <div class="form-group">
-        <input type="text" name="username" class="form-control form-control-user" placeholder="Логін" value="">
+        <input type="text" name="username" class="form-control form-control-user" placeholder="Login" value="">
     </div>
     <div class="form-group">
-        <input type="password" name="password" class="form-control form-control-user" placeholder="Пароль">
+        <input type="password" name="password" class="form-control form-control-user" placeholder="Password">
     </div>
-    <button class="btn btn-primary btn-user btn-block" id="btn_login">Увійти</button>
+    <button class="btn btn-primary btn-user btn-block" id="btn_login">Login in</button>
 </form>
 <hr>
 <div class="text-center">
     <a href="{% url 'accounts:sign_up' %}">
-        Створити обліковий запис
+        Create acccount
     </a>
 </div>
 
